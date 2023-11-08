@@ -1,7 +1,7 @@
 
-function Header() {
+const Header = () =>  {
   return (
-    <header>
+    <div>
       <h1>Jasmine Ratliff</h1>
       <p>Web Developer</p>
       <nav>
@@ -11,7 +11,7 @@ function Header() {
           <li><a href="https://harrypotterobsessed.onrender.com/" target="_blank" rel="nore">HPO Project</a></li>
         </ul>
       </nav>
-    </header>
+    </div>
   );
 }
 
