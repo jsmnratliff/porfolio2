@@ -1,7 +1,6 @@
-
-const Header = () =>  {
+const Header = () => {
   return (
-    <div>
+    <div style={{ textAlign: 'center' }}>
       <h1>Jasmine Ratliff</h1>
       <p>Web Developer</p>
       <nav>
